@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_algorand_wallet/presentation/pages/landing_page.dart';
+import 'package:flutter_algorand_wallet/presentation/pages/splash_screen.dart';
 
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
       ),
       debugShowCheckedModeBanner: false,
-      home: LandingPage(),
+      home: SplashScreen(),
     );
   }
 }
